@@ -94,17 +94,7 @@ export const skillCategories = [
 ];
 
 export const projects = [
-  {
-    title: 'Employee Management',
-    image: '/images/EmployeeManagement.png',
-    shortDescription: 'Full-stack employee management system.',
-    description:
-      'A Django-based HR tool with role-based access, CRUD operations, and reporting.',
-    tech: ['Django', 'Python', 'Bootstrap', 'SQLite'],
-    featured: true,
-    githubUrl: 'https://github.com/yourusername/employee-management',
-    liveUrl: '',
-  },
+
   {
     title: 'Mockify AI – Mock Interview',
     image: '/images/mockify-ai-mock-interview.png',
@@ -147,6 +137,21 @@ export const projects = [
     tech: ['Python', 'Django', 'AI'],
     featured: false,
     githubUrl: 'https://github.com/yourusername/smart-email-assistant',
+    liveUrl: '',
+  },
+
+
+
+
+    {
+    title: 'Employee Management',
+    image: '/images/EmployeeManagement.png',
+    shortDescription: 'Full-stack employee management system.',
+    description:
+      'A Django-based HR tool with role-based access, CRUD operations, and reporting.',
+    tech: ['Django', 'Python', 'Bootstrap', 'SQLite'],
+    featured: true,
+    githubUrl: 'https://github.com/yourusername/employee-management',
     liveUrl: '',
   },
 ];
